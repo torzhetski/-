@@ -9,8 +9,14 @@ class Program
 {
     static void Main()
     {
-        Expluatation stage = new Expluatation(0,0,2,false,2030);
-        WriteLine(stage.SupportPeriod);
-        WriteLine(stage);
+        List<Stage> project = new List<Stage>();
+        WriteLine("выберети форму ввода: ");
+        ConsoleKeyInfo key = ReadKey();
+        switch (key.KeyChar) 
+        { 
+        
+        }
+
+
     }
 }
